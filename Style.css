@@ -1,0 +1,276 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-width: 2px;
+  background-color: lightblue;
+}
+
+/* ធ្វើឱ្យផ្នែកសំខាន់ៗនៅកណ្ដាល */
+
+.header-section,
+.tools-container,
+.social-section {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* កែរូបភាពធំនៅខាងលើឱ្យតូចសមល្មម */
+
+.img {
+  width: 300px;
+  /* កំណត់ទំហំរូបភាពធំឱ្យនៅត្រឹម 300px */
+  height: auto;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+/* រចនាប្រអប់ Card ឱ្យនៅកណ្ដាល */
+
+.tool-card {
+  background-color: #f9f9f9;
+  border: 2px solid #0c5019;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  width: 300px;
+  max-width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+  border-block-width: 1px;
+}
+
+/* កែរូបភាពក្នុង Card ឱ្យតូចបំផុត (ត្រឹម 150px) */
+
+.Tools-pic {
+  width: 150px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+}
+
+/* ប៊ូតុង Download */
+
+.download-btn {
+  display: inline-block;
+  background-color: #0c5019;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background-color: #123b1a;
+  transform: scale(1.05);
+}
+
+/* Footer */
+
+.footer-nav {
+  background-color: #0c5019;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.download-btn {
+  background-color: #00ff00;
+  /* ពណ៌បៃតងបែប Hacker */
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #00cc00;
+  transform: scale(1.1);
+}
+
+.tools-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  font-weight: bold;
+  color: #lalala;
+}
+
+.h1 {
+  font-style: 40px;
+  font-family: Arial;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100%;
+  font-weight: bold;
+}
+
+.H4 {
+  font-style: 30px solid green;
+  font-family: Arial;
+  color: #00cc00;
+  background-color: #0c5019;
+  border: 2px solid #0c5019;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  width: 300px;
+  max-width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+  border: #00cc00 saddlebrown;
+  font-weight: bold;
+}
+
+.h3 {
+  font-style: 30px solid green;
+  font-family: Arial;
+  color: #00cc00;
+  background-color: #0c5019;
+  border: 2px solid #0c5019;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 19px auto;
+  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  width: 300px;
+  max-width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+  border: #00cc00 saddlebrown;
+  box-shadow: 0px 0px 04px 02px black;
+  font-weight: bold;
+}
+
+.h2 {
+  font-style: 30px solid green;
+  font-family: Arial;
+  color: #00cc00;
+  background-color: #0c5019;
+  border: 2px solid #0c5019;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 19px auto;
+  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  width: 300px;
+  max-width: 300px;
+  text-align: center;
+  flex-shrink: 0;
+  border: #00cc00 saddlebrown;
+  box-shadow: 0px 0px 04px 02px black;
+  font-weight: bold;
+}
+
+.Menu-color {
+  font-weight: bold;
+}
+
+.Tools-img {
+  font-style: 30px solid green;
+  font-family: Arial;
+  color: #00cc00;
+  background-color: #0c5019;
+  border: 2px solid #0c5019;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 19px auto;
+  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  width: 300px;
+  max-width: 300px;
+  text-align: center;
+  flex-shrink: 0;
+  border: #00cc00 saddlebrown;
+  box-shadow: 0px 0px 04px 02px black;
+  font-weight: bold;
+}
+
+/* ផ្ទៃខាងក្រោយងងឹតពេល Popup ចេញមក */
+
+.popup-overlay {
+  display: none;
+  /* លាក់វាសិនពេលដំបូង */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ប្រអប់ផ្ទាំងពាណិជ្ជកម្ម */
+
+.popup-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  border: 3px solid #00ff00;
+  animation: zoomIn 0.4s ease;
+  /* ចលនាហោះចេញមក */
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ប៊ូតុងបិទ (X) */
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #333;
+}
+
+.popup-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.join-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
