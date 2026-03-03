@@ -1,17 +1,26 @@
 body {
-  background-color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   border-width: 2px;
-  background-color: lightblue;
+  background-image: url("img/A3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 /* ធ្វើឱ្យផ្នែកសំខាន់ៗនៅកណ្ដាល */
 
 .header-section,
+.header-service,
 .tools-container,
-.social-section {
+.header-menu,
+.social-section,
+.tr-style,
+.contener-contact,
+.ol {
   text-align: center;
   padding: 20px;
   margin-bottom: 30px;
@@ -75,7 +84,7 @@ body {
 
 .footer-nav {
   background-color: #0c5019;
-  padding: 20px;
+  padding: 18px;
   text-align: center;
   width: 100%;
 }
@@ -120,7 +129,7 @@ body {
 .h1 {
   font-style: 40px;
   font-family: Arial;
-  color: #000000;
+  color: #ffff;
   justify-content: center;
   align-items: center;
   font-weight: 100%;
@@ -170,13 +179,10 @@ body {
   color: #00cc00;
   background-color: #0c5019;
   border: 2px solid #0c5019;
-  border-radius: 8px;
-  padding: 8px;
-  margin: 19px auto;
-  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
+  border-radius: 7px;
+  padding: 5px;
+  margin: 15px auto;
   width: 300px;
-  max-width: 300px;
-  text-align: center;
   flex-shrink: 0;
   border: #00cc00 saddlebrown;
   box-shadow: 0px 0px 04px 02px black;
@@ -185,6 +191,7 @@ body {
 
 .Menu-color {
   font-weight: bold;
+  color: white;
 }
 
 .Tools-img {
@@ -196,7 +203,6 @@ body {
   border-radius: 8px;
   padding: 8px;
   margin: 19px auto;
-  /* ឱ្យវាស្ថិតនៅកណ្ដាលជានិច្ច */
   width: 300px;
   max-width: 300px;
   text-align: center;
@@ -206,11 +212,8 @@ body {
   font-weight: bold;
 }
 
-/* ផ្ទៃខាងក្រោយងងឹតពេល Popup ចេញមក */
-
 .popup-overlay {
   display: none;
-  /* លាក់វាសិនពេលដំបូង */
   position: fixed;
   top: 0;
   left: 0;
@@ -222,8 +225,6 @@ body {
   align-items: center;
 }
 
-/* ប្រអប់ផ្ទាំងពាណិជ្ជកម្ម */
-
 .popup-content {
   background-color: white;
   padding: 30px;
@@ -234,7 +235,6 @@ body {
   position: relative;
   border: 3px solid #00ff00;
   animation: zoomIn 0.4s ease;
-  /* ចលនាហោះចេញមក */
 }
 
 @keyframes zoomIn {
@@ -247,8 +247,6 @@ body {
     opacity: 1;
   }
 }
-
-/* ប៊ូតុងបិទ (X) */
 
 .close-btn {
   position: absolute;
@@ -273,4 +271,95 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #03971e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 04px 02px black;
+  font-weight: bold;
+}
+
+.service-btn {
+  font-style: 30px solid green;
+  font-family: Arial;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 300px;
+  max-width: 250px;
+  text-align: center;
+  flex-shrink: 0;
+  border: #00cc00 saddlebrown;
+  font-weight: bold;
+  color: #00cc00;
+  background-color: #0c5019;
+  border: 2px solid #0c5019;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 16px auto;
+}
+
+.trstyle {
+  display: flex;
+  justify-content: center;
+  margin: top 20px;
+  color: #ffff;
+  font-family: Arial;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+}
+
+.tr-h2 {
+  font-family: Arial;
+  background-color: #21b603;
+  color: #ffff;
+}
+
+.Pic-service {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contener-contact {
+  padding: 20px;
+  margin: 19px;
+  justify-content: center;
+}
+
+.ol {
+  font-family: Arial;
+  padding: 7px;
+  font-style: 30px solid #fff;
+  font-family: Arial;
+  color: #fff;
+  background-color: #fff;
+  border: 2px solid green;
+  padding: 5px;
+  margin: 15px auto;
+  flex-shrink: 0;
+  border-radius: 7px;
+  width: 200px;
+  font-weight: bold;
+  box-shadow: 0px 0px 04px 02px black;
+}
+
+.Pic-contact {
+  border-radius: 20px;
+  box-shadow: 0px 0px 04px 02px black;
 }
